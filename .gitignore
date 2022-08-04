@@ -1,0 +1,9 @@
+node_modules
+*.log
+.next
+.history
+dist
+package-lock.json
+lib
+notes.md
+.DS_Store
