@@ -1,6 +1,6 @@
 {
-  "name": "@next-utils",
-  "version": "0.0.1-experiment",
+  "name": "@vedantnn71/next-utils",
+  "version": "0.0.2",
   "description": "✨Super helpful nextjs utility components, functions and hooks.",
   "main": "lib/index.js",
   "source": "src/index.tsx",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "microbundle --no-sourcemap --no-compress --jsx React.createElement",
+    "build": "tsc",
     "format": "prettier --write ./src/**/*"
   },
   "author": {
@@ -48,7 +48,6 @@
     "next": "^12.1.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "typescript": "^4.5.5",
-    "microbundle": "^0.14.2"
+    "typescript": "^4.5.5"
   }
 }
